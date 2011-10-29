@@ -32,7 +32,7 @@ package uk.co.betadesigns.extension.nativealert
 
         private function onAlertHandler( event : StatusEvent ) : void
         {
-            if( event.code == "ALERT_CLOSED" )
+            if( event.code == NativeAlertEvent.ALERT_CLOSE_EVENT )
             {
                 dispatchEvent( new NativeAlertEvent( event.level ));
                 context.removeEventListener( StatusEvent.STATUS, onAlertHandler );
