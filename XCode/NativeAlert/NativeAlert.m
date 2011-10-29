@@ -35,7 +35,7 @@ FREObject showAlertWithTitleAndMessage(FREContext ctx, void* funcData, uint32_t 
     NSString *closeLabelString = [NSString stringWithUTF8String:(char*)closeLabel];    
     NSString *otherLabelsString = [NSString stringWithUTF8String:(char*)otherLabels];    
     
-    MobileAlert *alert = [[[MobileAlert alloc] init] retain];
+    MobileAlert *alert = [[MobileAlert alloc] init];
     [alert showAlertWithTitle:titleString 
                       message:messageString 
                    closeLabel:closeLabelString
