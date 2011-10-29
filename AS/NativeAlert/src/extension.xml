@@ -1,0 +1,13 @@
+<extension xmlns="http://ns.adobe.com/air/extension/2.5">
+    <id>uk.co.betadesigns.extension.nativealert.NativeAlert</id>
+    <versionNumber>0.0.1</versionNumber>
+    <platforms>
+        <platform name="iPhone-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libNativeAlert.a</nativeLibrary>
+                <initializer>ExtInitializer</initializer>
+                <finalizer>ExtFinalizer</finalizer>
+            </applicationDeployment>
+        </platform>
+    </platforms>
+</extension>
