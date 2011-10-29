@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003CDF01145395CE00364F3C /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 003CDF00145395CE00364F3C /* FlashRuntimeExtensions.h */; };
+		00968C18145497AC00924321 /* NativeAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 00968C17145497AC00924321 /* NativeAlert.h */; };
+		009AC4D61453648D001C38F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009AC4D51453648D001C38F5 /* Foundation.framework */; };
+		009AC4F3145369A8001C38F5 /* NativeAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 009AC4F1145369A8001C38F5 /* NativeAlert.m */; };
+		00C6A1C4145390C400AD3496 /* MobileAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C6A1BE145370D200AD3496 /* MobileAlert.h */; };
+		00C6A1C5145390C900AD3496 /* MobileAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C6A1BF145370D200AD3496 /* MobileAlert.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		003CDF00145395CE00364F3C /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlashRuntimeExtensions.h; path = "../../../../../../../../../Applications/installs/Adobe Flash Builder 4.6/sdks/4.6.0/include/FlashRuntimeExtensions.h"; sourceTree = "<group>"; };
+		00968C17145497AC00924321 /* NativeAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeAlert.h; sourceTree = "<group>"; };
+		009AC4D21453648D001C38F5 /* libNativeAlert.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNativeAlert.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		009AC4D51453648D001C38F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		009AC4D91453648D001C38F5 /* NativeAlert-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NativeAlert-Prefix.pch"; sourceTree = "<group>"; };
+		009AC4F1145369A8001C38F5 /* NativeAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeAlert.m; sourceTree = "<group>"; };
+		00C6A1BE145370D200AD3496 /* MobileAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileAlert.h; sourceTree = "<group>"; };
+		00C6A1BF145370D200AD3496 /* MobileAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileAlert.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		009AC4CF1453648D001C38F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009AC4D61453648D001C38F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009AC4C71453648D001C38F5 = {
+			isa = PBXGroup;
+			children = (
+				003CDF00145395CE00364F3C /* FlashRuntimeExtensions.h */,
+				00C6A1BE145370D200AD3496 /* MobileAlert.h */,
+				00C6A1BF145370D200AD3496 /* MobileAlert.m */,
+				00968C17145497AC00924321 /* NativeAlert.h */,
+				009AC4F1145369A8001C38F5 /* NativeAlert.m */,
+				009AC4D71453648D001C38F5 /* NativeAlert */,
+				009AC4D41453648D001C38F5 /* Frameworks */,
+				009AC4D31453648D001C38F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		009AC4D31453648D001C38F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				009AC4D21453648D001C38F5 /* libNativeAlert.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		009AC4D41453648D001C38F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				009AC4D51453648D001C38F5 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		009AC4D71453648D001C38F5 /* NativeAlert */ = {
+			isa = PBXGroup;
+			children = (
+				009AC4D81453648D001C38F5 /* Supporting Files */,
+			);
+			path = NativeAlert;
+			sourceTree = "<group>";
+		};
+		009AC4D81453648D001C38F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				009AC4D91453648D001C38F5 /* NativeAlert-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		009AC4D01453648D001C38F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C6A1C4145390C400AD3496 /* MobileAlert.h in Headers */,
+				003CDF01145395CE00364F3C /* FlashRuntimeExtensions.h in Headers */,
+				00968C18145497AC00924321 /* NativeAlert.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		009AC4D11453648D001C38F5 /* NativeAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009AC4DF1453648D001C38F5 /* Build configuration list for PBXNativeTarget "NativeAlert" */;
+			buildPhases = (
+				009AC4CE1453648D001C38F5 /* Sources */,
+				009AC4CF1453648D001C38F5 /* Frameworks */,
+				009AC4D01453648D001C38F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NativeAlert;
+			productName = NativeAlert;
+			productReference = 009AC4D21453648D001C38F5 /* libNativeAlert.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		009AC4C91453648D001C38F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 009AC4CC1453648D001C38F5 /* Build configuration list for PBXProject "NativeAlert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 009AC4C71453648D001C38F5;
+			productRefGroup = 009AC4D31453648D001C38F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				009AC4D11453648D001C38F5 /* NativeAlert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		009AC4CE1453648D001C38F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C6A1C5145390C900AD3496 /* MobileAlert.m in Sources */,
+				009AC4F3145369A8001C38F5 /* NativeAlert.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		009AC4DD1453648D001C38F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		009AC4DE1453648D001C38F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		009AC4E01453648D001C38F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CONFIGURATION_BUILD_DIR = /Users/anthonymccormick/Documents/Projects/mobile/NativeExtensions/NativeAlert/build;
+				DSTROOT = /tmp/NativeAlert.dst;
+				GCC_LINK_WITH_DYNAMIC_LIBRARIES = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NativeAlert/NativeAlert-Prefix.pch";
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		009AC4E11453648D001C38F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CONFIGURATION_BUILD_DIR = /Users/anthonymccormick/Documents/Projects/mobile/NativeExtensions/NativeAlert/build/release;
+				DSTROOT = /tmp/NativeAlert.dst;
+				GCC_LINK_WITH_DYNAMIC_LIBRARIES = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NativeAlert/NativeAlert-Prefix.pch";
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		009AC4CC1453648D001C38F5 /* Build configuration list for PBXProject "NativeAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009AC4DD1453648D001C38F5 /* Debug */,
+				009AC4DE1453648D001C38F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009AC4DF1453648D001C38F5 /* Build configuration list for PBXNativeTarget "NativeAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009AC4E01453648D001C38F5 /* Debug */,
+				009AC4E11453648D001C38F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 009AC4C91453648D001C38F5 /* Project object */;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'NativeAlert' target in the 'NativeAlert' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
