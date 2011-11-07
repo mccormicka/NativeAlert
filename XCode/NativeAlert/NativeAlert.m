@@ -7,7 +7,7 @@
 //
 //#import <Foundation/Foundation.h>
 #include "FlashRuntimeExtensions.h"
-#import <UIKit/UIKit.h>
+//#import <UIKit/UIKit.h>
 #import "MobileAlert.h"
 
 
