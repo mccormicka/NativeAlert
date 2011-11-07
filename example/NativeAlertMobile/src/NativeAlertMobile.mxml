@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+               xmlns:s="library://ns.adobe.com/flex/spark"
+               applicationDPI="160"
+               click="test()">
+    <fx:Declarations>
+        <!-- Place non-visual elements (e.g., services, value objects) here -->
+    </fx:Declarations>
+
+    <fx:Script>
+        <![CDATA[
+            import uk.co.betadesigns.extension.nativealert.NativeAlert;
+            import uk.co.betadesigns.extension.nativealert.NativeAlertEvent;
+
+
+            private var nativeAlert : NativeAlert = new NativeAlert();
+
+            private function test() : void
+            {
+                nativeAlert.showAlertWithTitleAndMessage(
+                    "testing title works", "testing message works", "Close",
+                    "optional item 1,optional item 2" );
+
+                nativeAlert.addEventListener( NativeAlertEvent.ALERT_CLOSE_EVENT, nativeAlert_closeEventHandler );
+            }
+
+            [Bindable]
+            private var labelIndex : String;
+
+            protected function nativeAlert_closeEventHandler( event : NativeAlertEvent ) : void
+            {
+                nativeAlert.removeEventListener( NativeAlertEvent.ALERT_CLOSE_EVENT, nativeAlert_closeEventHandler );
+                labelIndex = event.index;
+            }
+        ]]>
+    </fx:Script>
+
+    <s:Label id="chosenlabel"
+             verticalCenter="0"
+             horizontalCenter="0"
+             text="Your chosen label index was { labelIndex }"/>
+</s:Application>
